@@ -1,0 +1,72 @@
+#pokeText {
+display: flex;
+justify-content: center;
+font-family: 'Cedarville Cursive', cursive;
+text-decoration: underline;
+}
+
+body {
+    font-family: Arial;
+}
+
+/* THIS IF FOR THE FORM */
+form{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+* {
+    box-sizing: border-box;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 10%;
+    background: white;
+}
+
+form.example button {
+    float: left;
+    width: 3%;
+    padding: 10px;
+    background: rgb(167, 146, 141);
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+}
+
+form.example button:hover {
+  background: rgb(215, 33, 33);
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* GRID FOR IMG AND STATS */
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  height: 300px;
+}
+
+.row {
+  height: 300px;
+  width: 800px;
+}
+
+#pokeImg {
+  border: 1px solid black;
+}
+
+#stats {
+  border: 1px solid black;
+}
