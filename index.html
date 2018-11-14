@@ -9,6 +9,7 @@
     <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet'>
     <link rel"stylesheet"  href="main.css">
     <title>Pokemon Project</title>
   </head>
@@ -20,9 +21,9 @@
   </div>
 
 <div id="container1">
-    <form class="example" action="/action_page.php">
-      <input type="text" placeholder="Enter Pokemon ID" name="search">
-      <button type="submit"><i class="fa fa-search"></i></button>
+    <form class="example">
+      <input id="searchbox", type="search" placeholder="Enter Pokemon ID" name="search">
+      <button id="searchbtn", type="submit" onclick="daPokemons()"><i class="fa fa-search"></i></button>
     </form>
 </div>
 
@@ -32,10 +33,27 @@
 
   <div class="row">
     <div class="col-lg-3" id="pokeImg">
-       <img src="">
+       <img src="" id="pokeImages">
     </div>
 
      <div class="col-lg-8 offset-lg-1" id="stats">
+       <span class="bold"></span>
+       <span id="pokeName" class="VT"></span>
+       <br>
+       <span class="bold"></span>
+       <span id="pokeAttack" class="VT"></span>
+       <br>
+       <span class="bold"></span>
+       <span id="pokeDefense" class="VT"></span>
+       <br>
+       <span class="bold"></span>
+       <span id="pokeAbility1" class="VT"></span>
+       <br>
+       <span class="bold"></span>
+       <span id="pokeAbility2" class="VT"></span>
+       <br>
+       <span class="bold"></span>
+       <span id="pokeAbility3" class="VT"></span>
 
      </div>
 

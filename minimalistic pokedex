@@ -1,0 +1,14 @@
+== Pokedex ==
+
+1) Have a search bar to input pokemon.
+
+2) Under search bar have an image and stats box.
+
+3) Use ajax to request stats from api
+
+
+
+
+1) make search bar functionably and relays information to the screen.
+
+2) 
